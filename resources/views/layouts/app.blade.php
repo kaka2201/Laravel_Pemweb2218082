@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" href="{{ asset('assets/icon.png') }}" />
@@ -9,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@yield('title')</title>
 </head>
-
 <body>
   @include('partials.sidebar')
   <section class="home-section">
@@ -35,13 +33,7 @@
 				if (sidebar.classList.contains("active")) {
 					sidebarBtn.classList.replace("bx-menu", "bx-menu-alt-right");
 				} else sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
-        function showDetails(tanggal, nama, kategori, harga, status) {
-         let nomorhp = event.target.getAttribute('data-nomorhp');
-         alert(`Tanggal: ${tanggal}\nNama: ${nama}\nKategori: ${kategori}\nHarga: ${harga}\nNomor HP: ${nomorhp}\nStatus: ${status}`);
-      }
-
 			};
   </script>
 </body>
-
 </html>

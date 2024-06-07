@@ -1,9 +1,7 @@
 @extends('layouts.app')
-
 @section('title')
 Tambah Category | Admin
 @endsection
-
 @section('content')
 <h3>Input Categories</h3>
 <div class="form-login">

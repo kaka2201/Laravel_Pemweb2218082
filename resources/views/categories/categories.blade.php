@@ -1,9 +1,7 @@
 @extends('layouts.app')
-
 @section('title')
 Categories | Admin
 @endsection
-
 @section('content')
 <h3>Categories</h3>
 <button type="button" class="btn btn-tambah">
